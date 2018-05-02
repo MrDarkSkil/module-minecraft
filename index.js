@@ -1,6 +1,6 @@
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
 
-export default {
+module.exports = {
   title: 'Minecraft',
   name: 'module-minecraft',
   type: 'game',
